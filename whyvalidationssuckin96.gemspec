@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{whyvalidationssuckin96}
-  s.version = "1.3.0"
+  s.version = "1.3.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["gabrielg", "douglasmeyer"]
-  s.date = %q{2010-01-15}
+  s.date = %q{2010-01-22}
   s.description = %q{A library for setting up model validations, such as in ActiveRecord.}
   s.email = %q{gabriel.gironda@gmail.com}
   s.extra_rdoc_files = [
@@ -133,16 +133,16 @@ Gem::Specification.new do |s|
      "test/macros/validates_numericality_test.rb",
      "test/macros/validates_presence_test.rb",
      "test/macros/validates_url_test.rb",
-     "test/rails/active_record_test_helper.rb",
      "test/rails/association_validation_test.rb",
      "test/rails/base_validation_overrides_test.rb",
      "test/rails/macros/validates_uniqueness_test.rb",
+     "test/rails/active_record_test_helper.rb",
      "test/skippable_validation_test.rb",
      "test/teststrap.rb",
      "test/validation_builder_test.rb",
-     "test/validation_collection_test.rb",
      "test/validation_support_test.rb",
-     "test/validation_test.rb"
+     "test/validation_test.rb",
+     "test/validation_collection_test.rb"
   ]
 
   if s.respond_to? :specification_version then
